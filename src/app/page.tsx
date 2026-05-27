@@ -33,8 +33,8 @@ export default function LandingPage() {
             <Link href="/login" className="text-sm font-medium hover:text-primary transition-colors">
               Login
             </Link>
-            <Link href="/register" className="bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors glow">
-              Register Venue
+            <Link href="/venues" className="bg-primary text-primary-foreground px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary/90 transition-colors glow">
+              Explore Venues
             </Link>
           </div>
         </div>
@@ -66,11 +66,8 @@ export default function LandingPage() {
               </motion.p>
               
               <motion.div variants={fadeIn} className="flex flex-col sm:flex-row items-center gap-4">
-                <Link href="/register" className="w-full sm:w-auto bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary/90 transition-all hover:scale-105 active:scale-95 glow flex items-center justify-center gap-2">
-                  Daftar Sekarang <ArrowRight className="w-5 h-5" />
-                </Link>
-                <Link href="#features" className="w-full sm:w-auto bg-white/5 border border-white/10 hover:bg-white/10 px-8 py-4 rounded-full text-lg font-medium transition-colors text-center">
-                  Learn More
+                <Link href="/venues" className="w-full sm:w-auto bg-primary text-primary-foreground px-8 py-4 rounded-full text-lg font-semibold hover:bg-primary/90 transition-all hover:scale-105 active:scale-95 glow flex items-center justify-center gap-2">
+                  Explore Venues <ArrowRight className="w-5 h-5" />
                 </Link>
               </motion.div>
             </motion.div>
@@ -190,10 +187,10 @@ export default function LandingPage() {
         <section className="py-24 bg-primary text-primary-foreground relative overflow-hidden">
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
           <div className="container mx-auto px-6 text-center relative z-10">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to scale your venue?</h2>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-10">Join other forward-thinking padel venue owners who have modernized their booking operations.</p>
-            <Link href="/register" className="inline-flex bg-background text-foreground px-10 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform shadow-xl">
-              Get Started for Free
+            <h2 className="text-4xl md:text-5xl font-bold mb-6">Ready to play?</h2>
+            <p className="text-xl opacity-90 max-w-2xl mx-auto mb-10">Find the perfect padel court near you and book instantly.</p>
+            <Link href="/venues" className="inline-flex bg-background text-foreground px-10 py-5 rounded-full text-xl font-bold hover:scale-105 transition-transform shadow-xl">
+              Explore Venues
             </Link>
           </div>
         </section>

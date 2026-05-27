@@ -10,3 +10,9 @@ README.md
 .env.development.local
 .env.test.local
 .env.production.local
+
+# sqlite databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
